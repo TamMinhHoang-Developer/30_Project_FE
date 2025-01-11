@@ -7,6 +7,10 @@ export default {
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
+    fontSize: {
+      text_preset_1: "22px",
+      text_preset_2: "15px",
+    },
     extend: {
       colors: {
         background: "var(--background)",
@@ -16,6 +20,11 @@ export default {
         state_300: "#D5E1EF",
         white: "#FFFFFF",
       },
+      spacing: {
+        500: "40px",
+        300: "24px",
+        200: "16px",
+      }
     },
   },
   plugins: [],
